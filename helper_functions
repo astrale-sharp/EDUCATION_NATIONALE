@@ -1,0 +1,21 @@
+echo "function for national education"
+function ENodt2pdf -d "for each odt, build the pdf next to it"
+	unoconv -vf pdf **.odt
+end
+
+function ENodt2pdf2res_pdf -d "for each odt, build the pdf in res_pdf"
+      command mkdir res_pdf 
+      unoconv -vf pdf -o res_pdf **.odt
+end
+
+function ENchapentier -d "Make the all chapter in chapitre_entier.pdf"
+	pdfunite trame.pdf attendus*.pdf trace_ecrite.pdf exercices/*.pdf evaluation/*.pdf act*/act*.pdf chapitre_entier.pdf
+end
+
+function ENsave_res_to_backup
+	cd /home/astrale/Cours
+	cp -r --parents ./EDUCATION\ NATIONALE/**resultat* ./backup
+	echo "saved in /home/astrale/Cours/backup"
+	echo "cd /home/astrale/Cours/backup"
+	cd
+end

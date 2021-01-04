@@ -1,0 +1,7 @@
+Nœud de courant : C’est un point du circuit où un ou plusieurs courants entrent et sortent : C’est un
+carrefour de fils.
+ Branche de courant : C’est une portion du circuit délimitée par 2 nœuds consécutifs.
+Elle contient forcément un dipôle. On distingue :
+ la branche principale (celle comportant le générateur) :
+ Les branches dérivées (comportant uniquement des récepteurs) :
+ Boucle de courant : Chemin possible pour le courant

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400px" height="1100px" viewBox="-130 -200 1400 1100" version="1.2">
+  <title>Global Average Temperature</title>
+  <desc>Land-ocean temperature index, 1880 to present, with base period 1951-1980</desc>
+  <!-- Data for the graph from: https://data.giss.nasa.gov/gistemp/graphs_v4/ -->
+  <style type="text/css"><![CDATA[
+    path, line, rect {
+       fill: none;
+       stroke: black;
+       stroke-width: 1.2;
+       stroke-linecap: butt;
+    }
+    text {
+      font-family:Liberation Sans,Arial,Nimbus Sans L,Helvetica,sans-serif;
+      font-face-name: arial;
+      font-size: 58px;
+      fill: black;
+    }
+    .scale, .scale text {
+      font-family:Liberation Sans,Arial,Nimbus Sans L,Helvetica,sans-serif;
+      font-face-name: arial;
+      font-size: 58px;
+      text-anchor: middle;
+    }
+    .y-label, .y-label text {
+      text-anchor: middle;
+    }
+    .x {
+      text-anchor: middle;
+      font-size: 52px;
+    }
+    .celcius {
+      text-anchor: end;
+    }
+    .fahrenheit {
+      text-anchor: end;
+    }
+    .majorTick {
+       stroke-width: 3.0;
+    }
+    .whiteBox {
+      stroke-width: 0;
+      fill: white;
+    }
+    .annual_line {
+       stroke: black;
+       stroke-width: 6;
+       stroke-linejoin: round;
+       stroke-linecap: round;
+       stroke-miterlimit: 10;
+       fill: none;
+       fill-rule: evenodd;
+    }
+    .human_label {
+      fill: Tomato;
+    }
+    .human_line {
+       stroke: Tomato;
+       stroke-width: 6;
+       stroke-linejoin: round;
+       stroke-linecap: round;
+       stroke-miterlimit: 10;
+       fill: none;
+       fill-rule: evenodd;
+    }
+    .natural_label {
+      fill: darkgreen;
+    }
+    .natural_line {
+       stroke: darkgreen;
+       stroke-width: 6;
+       stroke-linejoin: round;
+       stroke-linecap: round;
+       stroke-miterlimit: 10;
+       fill: none;
+       fill-rule: evenodd;
+    }
+  ]]></style>
+
+  <!-- Background -->
+  <rect class="whiteBox" x="-130" y="-200" width="1400" height="1100"/>
+
+  <!-- Outline graph -->
+  <rect id="outline" x="80" y="-100" width="1080" height="900"/>
+
+  <g class="x" transform="translate(600,-125)">
+    <switch>
+      <text id="trsvg118"><tspan id="trsvg19">Global surface temperature</tspan></text>
+    </switch>
+  </g>
+
+  <!-- x-axis: pixel scale is 7.2*year -->
+  <switch><text class="scale x" x="71" y="870" id="trsvg119"><tspan id="trsvg20">1880</tspan></text></switch>
+  <line class="graticule" x1="152" x2="152" y1="800" y2="780"/>
+  <line class="majorTick" x1="224" x2="224" y1="800" y2="780"/>
+  <switch><text class="scale x" x="215" y="870" id="trsvg120"><tspan id="trsvg21">1900</tspan></text></switch>
+  <line class="graticule" x1="296" x2="296" y1="800" y2="780"/>
+  <line class="majorTick" x1="368" x2="368" y1="800" y2="780"/>
+  <switch><text class="scale x" x="359" y="870" id="trsvg121"><tspan id="trsvg22">1920</tspan></text></switch>
+  <line class="graticule" x1="440" x2="440" y1="800" y2="780"/>
+  <line class="majorTick" x1="512" x2="512" y1="800" y2="780"/>
+  <switch><text class="scale x" x="503" y="870" id="trsvg122"><tspan id="trsvg23">1940</tspan></text></switch>
+  <line class="graticule" x1="584" x2="584" y1="800" y2="780"/>
+  <line class="majorTick" x1="656" x2="656" y1="800" y2="780"/>
+  <switch><text class="scale x" x="656" y="870" id="trsvg123"><tspan id="trsvg24">1960</tspan></text></switch>
+  <line class="graticule" x1="728" x2="728" y1="800" y2="780"/>
+  <line class="majorTick" x1="800" x2="800" y1="800" y2="780"/>
+  <switch><text class="scale x" x="791" y="870" id="trsvg124"><tspan id="trsvg25">1980</tspan></text></switch>
+  <line class="graticule" x1="872" x2="872" y1="800" y2="780"/>
+  <line class="majorTick" x1="944" x2="944" y1="800" y2="780"/>
+  <switch><text class="scale x" x="935" y="870" id="trsvg125"><tspan id="trsvg26">2000</tspan></text></switch>
+  <line class="graticule" x1="1016" x2="1016" y1="800" y2="780"/>
+  <line class="majorTick" x1="1088" x2="1088" y1="800" y2="780"/>
+  <switch><text class="scale x" x="1079" y="870" id="trsvg126"><tspan id="trsvg27">2020</tspan></text></switch>
+
+  <g class="y-label" transform="rotate(-90, -10, 391) translate(50,341)">
+    <switch>
+       <text id="trsvg145"><tspan id="trsvg46">Change from pre-industrial</tspan></text>
+    </switch>
+  </g>
+
+  <!-- y-axis fahrenheit -->
+  <text class="scale fahrenheit" x="1245" y="-60" id="trsvg160"><tspan id="trsvg61">°F</tspan></text>
+
+  <text class="scale fahrenheit" x="1265" y="59.44" id="trsvg147"><tspan id="trsvg48">2.0</tspan></text>
+  <text class="scale fahrenheit" x="1265" y="198.3" id="trsvg147"><tspan id="trsvg48">1.5</tspan></text>
+  <text class="scale fahrenheit" x="1265" y="337.2" id="trsvg147"><tspan id="trsvg48">1.0</tspan></text>
+  <text class="scale fahrenheit" x="1265" y="476.1" id="trsvg147"><tspan id="trsvg48">0.5</tspan></text>
+  <text class="scale fahrenheit" x="1265" y="615" id="trsvg147"><tspan id="trsvg48">0</tspan></text>
+  <text class="scale fahrenheit" x="1265" y="753.8" id="trsvg147"><tspan id="trsvg48">-0.5</tspan></text>
+
+  <line class="majorTick" x1="1140" x2="1160" y1="-94.4" y2="-94.4"/>
+  <line class="graticule" x1="1140" x2="1160" y1="-66.6" y2="-66.6"/>
+  <line class="graticule" x1="1140" x2="1160" y1="-38.8" y2="-38.8"/>
+  <line class="graticule" x1="1140" x2="1160" y1="-11.1" y2="-11.1"/>
+  <line class="graticule" x1="1140" x2="1160" y1="16.6" y2="16.6"/>
+  <line class="majorTick" x1="1140" x2="1160" y1="44.44" y2="44.4"/>
+  <line class="graticule" x1="1140" x2="1160" y1="72.2" y2="72.2"/>
+  <line class="graticule" x1="1140" x2="1160" y1="100" y2="100"/>
+  <line class="graticule" x1="1140" x2="1160" y1="127.8" y2="127.8"/>
+  <line class="graticule" x1="1140" x2="1160" y1="155.6" y2="155.6"/>
+  <line class="majorTick" x1="1140" x2="1160" y1="183.3" y2="183.3"/>
+  <line class="graticule" x1="1140" x2="1160" y1="211.1" y2="211.1"/>
+  <line class="graticule" x1="1140" x2="1160" y1="238.9" y2="238.9"/>
+  <line class="graticule" x1="1140" x2="1160" y1="266.7" y2="266.7"/>
+  <line class="graticule" x1="1140" x2="1160" y1="294.4" y2="294.4"/>
+  <line class="majorTick" x1="1140" x2="1160" y1="322.2" y2="322.2"/>
+  <line class="graticule" x1="1140" x2="1160" y1="350" y2="350"/>
+  <line class="graticule" x1="1140" x2="1160" y1="377.8" y2="377.8"/>
+  <line class="graticule" x1="1140" x2="1160" y1="405.6" y2="405.6"/>
+  <line class="graticule" x1="1140" x2="1160" y1="433.3" y2="433.3"/>
+  <line class="majorTick" x1="1140" x2="1160" y1="461.1" y2="461.1"/>
+  <line class="graticule" x1="1140" x2="1160" y1="488.9" y2="488.9"/>
+  <line class="graticule" x1="1140" x2="1160" y1="516.7" y2="516.7"/>
+  <line class="graticule" x1="1140" x2="1160" y1="544.4" y2="544.4"/>
+  <line class="graticule" x1="1140" x2="1160" y1="572.2" y2="572.2"/>
+  <line class="majorTick" x1="1140" x2="1160" y1="600" y2="600"/>
+  <line class="graticule" x1="1140" x2="1160" y1="627.8" y2="627.8"/>
+  <line class="graticule" x1="1140" x2="1160" y1="655.6" y2="655.6"/>
+  <line class="graticule" x1="1140" x2="1160" y1="683.3" y2="683.3"/>
+  <line class="graticule" x1="1140" x2="1160" y1="711.1" y2="711.1"/>
+  <line class="majorTick" x1="1140" x2="1160" y1="738.8" y2="738.8"/>
+  <line class="graticule" x1="1140" x2="1160" y1="766.7" y2="766.7"/>
+  <line class="graticule" x1="1140" x2="1160" y1="794.4" y2="794.4"/>
+
+  <!-- y-axis celcius: pixels = −500*temp, default systemLanguage must be en for less buggy behavior -->
+  <text class="scale celcius" x="62" y="-60" id="trsvg160"><tspan id="trsvg61">°C</tspan></text>
+
+  <line class="graticule" x1="80" x2="100" y1="750" y2="750"/>
+  <line class="majorTick" x1="80" x2="100" y1="700" y2="700"/>
+  <switch>
+  <text systemLanguage="ar" class="scale celcius" x="68" y="715" id="trsvg146"><tspan id="trsvg47">−0,2</tspan></text><text systemLanguage="cs" class="scale celcius" x="68" y="715" id="trsvg146"><tspan id="trsvg47">−0,2</tspan></text><text systemLanguage="da" class="scale celcius" x="68" y="715" id="trsvg146"><tspan id="trsvg47">−0,2</tspan></text><text systemLanguage="de" class="scale celcius" x="68" y="715" id="trsvg146"><tspan id="trsvg47">−0,2</tspan></text><text systemLanguage="es" class="scale celcius" x="68" y="715" id="trsvg146"><tspan id="trsvg47">−0,2</tspan></text><text systemLanguage="eu" class="scale celcius" x="68" y="715" id="trsvg146"><tspan id="trsvg47">−0,2</tspan></text><text systemLanguage="fi" class="scale celcius" x="68" y="715" id="trsvg146"><tspan id="trsvg47">−0,2</tspan></text><text systemLanguage="fr" class="scale celcius" x="68" y="715" id="trsvg146"><tspan id="trsvg47">−0,2</tspan></text><text systemLanguage="it" class="scale celcius" x="68" y="715" id="trsvg146"><tspan id="trsvg47">−0,2</tspan></text><text systemLanguage="nl" class="scale celcius" x="68" y="715" id="trsvg146"><tspan id="trsvg47">−0,2</tspan></text><text systemLanguage="no" class="scale celcius" x="68" y="715" id="trsvg146"><tspan id="trsvg47">−0,2</tspan></text><text systemLanguage="pl" class="scale celcius" x="68" y="715" id="trsvg146"><tspan id="trsvg47">−0,2</tspan></text><text systemLanguage="pt" class="scale celcius" x="68" y="715" id="trsvg146"><tspan id="trsvg47">−0,2</tspan></text><text systemLanguage="ru" class="scale celcius" x="68" y="715" id="trsvg146"><tspan id="trsvg47">−0,2</tspan></text><text systemLanguage="sv" class="scale celcius" x="68" y="715" id="trsvg146"><tspan id="trsvg47">−0,2</tspan></text><text systemLanguage="tr" class="scale celcius" x="68" y="715" id="trsvg146"><tspan id="trsvg47">−0,2</tspan></text><text class="scale celcius" x="68" y="715" id="trsvg147-ca" systemLanguage="ca"><tspan id="trsvg48-ca">−0,2</tspan></text><text class="scale celcius" x="68" y="715" id="trsvg147"><tspan id="trsvg48">-0.2</tspan></text></switch>
+
+  <line class="graticule" x1="80" x2="100" y1="650" y2="650"/>
+  <line class="majorTick" x1="80" x2="100" y1="600" y2="600"/>
+  <text class="scale celcius" x="68" y="615" id="trsvg150"><tspan id="trsvg51">0</tspan></text>
+  
+  <line class="graticule" x1="80" x2="100" y1="550" y2="550"/>
+  <line class="majorTick" x1="80" x2="100" y1="500" y2="500"/>
+  <switch>
+  <text systemLanguage="ar" class="scale celcius" x="68" y="515" id="trsvg148"><tspan id="trsvg49">0</tspan></text><text systemLanguage="cs" class="scale celcius" x="68" y="515" id="trsvg148"><tspan id="trsvg49">0</tspan></text><text systemLanguage="da" class="scale celcius" x="68" y="515" id="trsvg148"><tspan id="trsvg49">0</tspan></text><text systemLanguage="de" class="scale celcius" x="68" y="515" id="trsvg148"><tspan id="trsvg49">0</tspan></text><text systemLanguage="es" class="scale celcius" x="68" y="515" id="trsvg148"><tspan id="trsvg49">0</tspan></text><text systemLanguage="eu" class="scale celcius" x="68" y="515" id="trsvg148"><tspan id="trsvg49">0</tspan></text><text systemLanguage="fi" class="scale celcius" x="68" y="515" id="trsvg148"><tspan id="trsvg49">0</tspan></text><text systemLanguage="fr" class="scale celcius" x="68" y="515" id="trsvg148"><tspan id="trsvg49">0</tspan></text><text systemLanguage="it" class="scale celcius" x="68" y="515" id="trsvg148"><tspan id="trsvg49">0</tspan></text><text systemLanguage="nl" class="scale celcius" x="68" y="515" id="trsvg148"><tspan id="trsvg49">0</tspan></text><text systemLanguage="no" class="scale celcius" x="68" y="515" id="trsvg148"><tspan id="trsvg49">0</tspan></text><text systemLanguage="pl" class="scale celcius" x="68" y="515" id="trsvg148"><tspan id="trsvg49">0</tspan></text><text systemLanguage="pt" class="scale celcius" x="68" y="515" id="trsvg148"><tspan id="trsvg49">0</tspan></text><text systemLanguage="ru" class="scale celcius" x="68" y="515" id="trsvg148"><tspan id="trsvg49">0</tspan></text><text systemLanguage="sv" class="scale celcius" x="68" y="515" id="trsvg148"><tspan id="trsvg49">0</tspan></text><text systemLanguage="tr" class="scale celcius" x="68" y="515" id="trsvg148"><tspan id="trsvg49">0</tspan></text><text class="scale celcius" x="68" y="515" id="trsvg149-ca" systemLanguage="ca"><tspan id="trsvg50-ca">0,2</tspan></text><text class="scale celcius" x="68" y="515" id="trsvg149"><tspan id="trsvg50">0.2</tspan></text></switch>
+
+  <line class="graticule" x1="80" x2="100" y1="450" y2="450"/>
+  <line class="majorTick" x1="80" x2="100" y1="400" y2="400"/>
+  <switch>
+  <text systemLanguage="ar" class="scale celcius" x="68" y="415" id="trsvg151"><tspan id="trsvg52">0,4</tspan></text><text systemLanguage="cs" class="scale celcius" x="68" y="415" id="trsvg151"><tspan id="trsvg52">0,4</tspan></text><text systemLanguage="da" class="scale celcius" x="68" y="415" id="trsvg151"><tspan id="trsvg52">0,4</tspan></text><text systemLanguage="de" class="scale celcius" x="68" y="415" id="trsvg151"><tspan id="trsvg52">0,4</tspan></text><text systemLanguage="es" class="scale celcius" x="68" y="415" id="trsvg151"><tspan id="trsvg52">0,4</tspan></text><text systemLanguage="eu" class="scale celcius" x="68" y="415" id="trsvg151"><tspan id="trsvg52">0,4</tspan></text><text systemLanguage="fi" class="scale celcius" x="68" y="415" id="trsvg151"><tspan id="trsvg52">0,4</tspan></text><text systemLanguage="fr" class="scale celcius" x="68" y="415" id="trsvg151"><tspan id="trsvg52">0,4</tspan></text><text systemLanguage="it" class="scale celcius" x="68" y="415" id="trsvg151"><tspan id="trsvg52">0,4</tspan></text><text systemLanguage="nl" class="scale celcius" x="68" y="415" id="trsvg151"><tspan id="trsvg52">0,4</tspan></text><text systemLanguage="no" class="scale celcius" x="68" y="415" id="trsvg151"><tspan id="trsvg52">0,4</tspan></text><text systemLanguage="pl" class="scale celcius" x="68" y="415" id="trsvg151"><tspan id="trsvg52">0,4</tspan></text><text systemLanguage="pt" class="scale celcius" x="68" y="415" id="trsvg151"><tspan id="trsvg52">0,4</tspan></text><text systemLanguage="ru" class="scale celcius" x="68" y="415" id="trsvg151"><tspan id="trsvg52">0,4</tspan></text><text systemLanguage="sv" class="scale celcius" x="68" y="415" id="trsvg151"><tspan id="trsvg52">0,4</tspan></text><text systemLanguage="tr" class="scale celcius" x="68" y="415" id="trsvg151"><tspan id="trsvg52">0,4</tspan></text><text class="scale celcius" x="68" y="415" id="trsvg152-ca" systemLanguage="ca"><tspan id="trsvg53-ca">0,4</tspan></text><text class="scale celcius" x="68" y="415" id="trsvg152"><tspan id="trsvg53">0.4</tspan></text></switch>
+
+  <line class="graticule" x1="80" x2="100" y1="350" y2="350"/>
+  <line class="majorTick" x1="80" x2="100" y1="300" y2="300"/>
+  <switch>
+  <text systemLanguage="ar" class="scale celcius" x="68" y="315" id="trsvg153"><tspan id="trsvg54">0,6</tspan></text><text systemLanguage="cs" class="scale celcius" x="68" y="315" id="trsvg153"><tspan id="trsvg54">0,6</tspan></text><text systemLanguage="da" class="scale celcius" x="68" y="315" id="trsvg153"><tspan id="trsvg54">0,6</tspan></text><text systemLanguage="de" class="scale celcius" x="68" y="315" id="trsvg153"><tspan id="trsvg54">0,6</tspan></text><text systemLanguage="es" class="scale celcius" x="68" y="315" id="trsvg153"><tspan id="trsvg54">0,6</tspan></text><text systemLanguage="eu" class="scale celcius" x="68" y="315" id="trsvg153"><tspan id="trsvg54">0,6</tspan></text><text systemLanguage="fi" class="scale celcius" x="68" y="315" id="trsvg153"><tspan id="trsvg54">0,6</tspan></text><text systemLanguage="fr" class="scale celcius" x="68" y="315" id="trsvg153"><tspan id="trsvg54">0,6</tspan></text><text systemLanguage="it" class="scale celcius" x="68" y="315" id="trsvg153"><tspan id="trsvg54">0,6</tspan></text><text systemLanguage="nl" class="scale celcius" x="68" y="315" id="trsvg153"><tspan id="trsvg54">0,6</tspan></text><text systemLanguage="no" class="scale celcius" x="68" y="315" id="trsvg153"><tspan id="trsvg54">0,6</tspan></text><text systemLanguage="pl" class="scale celcius" x="68" y="315" id="trsvg153"><tspan id="trsvg54">0,6</tspan></text><text systemLanguage="pt" class="scale celcius" x="68" y="315" id="trsvg153"><tspan id="trsvg54">0,6</tspan></text><text systemLanguage="ru" class="scale celcius" x="68" y="315" id="trsvg153"><tspan id="trsvg54">0,6</tspan></text><text systemLanguage="sv" class="scale celcius" x="68" y="315" id="trsvg153"><tspan id="trsvg54">0,6</tspan></text><text systemLanguage="tr" class="scale celcius" x="68" y="315" id="trsvg153"><tspan id="trsvg54">0,6</tspan></text><text class="scale celcius" x="68" y="315" id="trsvg154-ca" systemLanguage="ca"><tspan id="trsvg55-ca">0,6</tspan></text><text class="scale celcius" x="68" y="315" id="trsvg154"><tspan id="trsvg55">0.6</tspan></text></switch>
+
+  <line class="graticule" x1="80" x2="100" y1="250" y2="250"/>
+  <line class="majorTick" x1="80" x2="100" y1="200" y2="200"/>
+  <switch>
+  <text systemLanguage="ar" class="scale celcius" x="68" y="215" id="trsvg155"><tspan id="trsvg56">0,8</tspan></text><text systemLanguage="cs" class="scale celcius" x="68" y="215" id="trsvg155"><tspan id="trsvg56">0,8</tspan></text><text systemLanguage="da" class="scale celcius" x="68" y="215" id="trsvg155"><tspan id="trsvg56">0,8</tspan></text><text systemLanguage="de" class="scale celcius" x="68" y="215" id="trsvg155"><tspan id="trsvg56">0,8</tspan></text><text systemLanguage="es" class="scale celcius" x="68" y="215" id="trsvg155"><tspan id="trsvg56">0,8</tspan></text><text systemLanguage="eu" class="scale celcius" x="68" y="215" id="trsvg155"><tspan id="trsvg56">0,8</tspan></text><text systemLanguage="fi" class="scale celcius" x="68" y="215" id="trsvg155"><tspan id="trsvg56">0,8</tspan></text><text systemLanguage="fr" class="scale celcius" x="68" y="215" id="trsvg155"><tspan id="trsvg56">0,8</tspan></text><text systemLanguage="it" class="scale celcius" x="68" y="215" id="trsvg155"><tspan id="trsvg56">0,8</tspan></text><text systemLanguage="nl" class="scale celcius" x="68" y="215" id="trsvg155"><tspan id="trsvg56">0,8</tspan></text><text systemLanguage="no" class="scale celcius" x="68" y="215" id="trsvg155"><tspan id="trsvg56">0,8</tspan></text><text systemLanguage="pl" class="scale celcius" x="68" y="215" id="trsvg155"><tspan id="trsvg56">0,8</tspan></text><text systemLanguage="pt" class="scale celcius" x="68" y="215" id="trsvg155"><tspan id="trsvg56">0,8</tspan></text><text systemLanguage="ru" class="scale celcius" x="68" y="215" id="trsvg155"><tspan id="trsvg56">0,8</tspan></text><text systemLanguage="sv" class="scale celcius" x="68" y="215" id="trsvg155"><tspan id="trsvg56">0,8</tspan></text><text systemLanguage="tr" class="scale celcius" x="68" y="215" id="trsvg155"><tspan id="trsvg56">0,8</tspan></text><text class="scale celcius" x="68" y="215" id="trsvg156-ca" systemLanguage="ca"><tspan id="trsvg57-ca">0,8</tspan></text><text class="scale celcius" x="68" y="215" id="trsvg156"><tspan id="trsvg57">0.8</tspan></text></switch>
+
+  <line class="graticule" x1="80" x2="100" y1="150" y2="150"/>
+  <line class="majorTick" x1="80" x2="100" y1="100" y2="100"/>
+  <switch>
+  <text systemLanguage="ar" class="scale celcius" x="68" y="115" id="trsvg157"><tspan id="trsvg58">1,0</tspan></text><text systemLanguage="cs" class="scale celcius" x="68" y="115" id="trsvg157"><tspan id="trsvg58">1,0</tspan></text><text systemLanguage="da" class="scale celcius" x="68" y="115" id="trsvg157"><tspan id="trsvg58">1,0</tspan></text><text systemLanguage="de" class="scale celcius" x="68" y="115" id="trsvg157"><tspan id="trsvg58">1,0</tspan></text><text systemLanguage="es" class="scale celcius" x="68" y="115" id="trsvg157"><tspan id="trsvg58">1,0</tspan></text><text systemLanguage="eu" class="scale celcius" x="68" y="115" id="trsvg157"><tspan id="trsvg58">1,0</tspan></text><text systemLanguage="fi" class="scale celcius" x="68" y="115" id="trsvg157"><tspan id="trsvg58">1,0</tspan></text><text systemLanguage="fr" class="scale celcius" x="68" y="115" id="trsvg157"><tspan id="trsvg58">1,0</tspan></text><text systemLanguage="it" class="scale celcius" x="68" y="115" id="trsvg157"><tspan id="trsvg58">1,0</tspan></text><text systemLanguage="nl" class="scale celcius" x="68" y="115" id="trsvg157"><tspan id="trsvg58">1,0</tspan></text><text systemLanguage="no" class="scale celcius" x="68" y="115" id="trsvg157"><tspan id="trsvg58">1,0</tspan></text><text systemLanguage="pl" class="scale celcius" x="68" y="115" id="trsvg157"><tspan id="trsvg58">1,0</tspan></text><text systemLanguage="pt" class="scale celcius" x="68" y="115" id="trsvg157"><tspan id="trsvg58">1,0</tspan></text><text systemLanguage="ru" class="scale celcius" x="68" y="115" id="trsvg157"><tspan id="trsvg58">1,0</tspan></text><text systemLanguage="sv" class="scale celcius" x="68" y="115" id="trsvg157"><tspan id="trsvg58">1,0</tspan></text><text systemLanguage="tr" class="scale celcius" x="68" y="115" id="trsvg157"><tspan id="trsvg58">1,0</tspan></text><text class="scale celcius" x="68" y="115" id="trsvg158-ca" systemLanguage="ca"><tspan id="trsvg59-ca">1,0</tspan></text><text class="scale celcius" x="68" y="115" id="trsvg158"><tspan id="trsvg59">1.0</tspan></text></switch>
+
+  <line class="graticule" x1="80" x2="100" y1="50" y2="50"/>
+  <line class="majorTick" x1="80" x2="100" y1="0" y2="0"/>
+  <line class="graticule" x1="80" x2="100" y1="-50" y2="-50"/>
+  <switch>
+  <text systemLanguage="ar" class="scale celcius" x="68" y="15" id="trsvg159"><tspan id="trsvg60">1,2</tspan></text><text systemLanguage="cs" class="scale celcius" x="68" y="15" id="trsvg159"><tspan id="trsvg60">1,2</tspan></text><text systemLanguage="da" class="scale celcius" x="68" y="15" id="trsvg159"><tspan id="trsvg60">1,2</tspan></text><text systemLanguage="de" class="scale celcius" x="68" y="15" id="trsvg159"><tspan id="trsvg60">1,2</tspan></text><text systemLanguage="es" class="scale celcius" x="68" y="15" id="trsvg159"><tspan id="trsvg60">1,2</tspan></text><text systemLanguage="eu" class="scale celcius" x="68" y="15" id="trsvg159"><tspan id="trsvg60">1,2</tspan></text><text systemLanguage="fi" class="scale celcius" x="68" y="15" id="trsvg159"><tspan id="trsvg60">1,2</tspan></text><text systemLanguage="fr" class="scale celcius" x="68" y="15" id="trsvg159"><tspan id="trsvg60">1,2</tspan></text><text systemLanguage="it" class="scale celcius" x="68" y="15" id="trsvg159"><tspan id="trsvg60">1,2</tspan></text><text systemLanguage="nl" class="scale celcius" x="68" y="15" id="trsvg159"><tspan id="trsvg60">1,2</tspan></text><text systemLanguage="no" class="scale celcius" x="68" y="15" id="trsvg159"><tspan id="trsvg60">1,2</tspan></text><text systemLanguage="pl" class="scale celcius" x="68" y="15" id="trsvg159"><tspan id="trsvg60">1,2</tspan></text><text systemLanguage="pt" class="scale celcius" x="68" y="15" id="trsvg159"><tspan id="trsvg60">1,2</tspan></text><text systemLanguage="ru" class="scale celcius" x="68" y="15" id="trsvg159"><tspan id="trsvg60">1,2</tspan></text><text systemLanguage="sv" class="scale celcius" x="68" y="15" id="trsvg159"><tspan id="trsvg60">1,2</tspan></text><text systemLanguage="tr" class="scale celcius" x="68" y="15" id="trsvg159"><tspan id="trsvg60">1,2</tspan></text><text class="scale celcius" x="68" y="15" id="trsvg160-ca" systemLanguage="ca"><tspan id="trsvg61-ca">1,2</tspan></text><text class="scale celcius" x="68" y="15" id="trsvg160"><tspan id="trsvg61">1.2</tspan></text></switch>
+
+  <!-- legend -->
+  <path class="annual_line" d="M 155 -5 h60"/>
+  <g transform="translate(240,0)">
+    <switch>
+      <text dy="0.5ex" id="trsvg179"><tspan id="trsvg80">Observed temperature</tspan></text>
+    </switch>
+  </g>
+  <path class="human_line" d="M 155 85 h60"/>
+  <g transform="translate(240,90)">
+    <switch>
+      <text class="human_label" dy="0.5ex" id="trsvg198"><tspan id="trsvg99">Human drivers only</tspan></text>
+    </switch>
+  </g>
+  <path class="natural_line" d="M 155 175 h60"/>
+  <g transform="translate(240,180)">
+    <switch>
+      <text class="natural_label" dy="0.5ex" id="trsvg198"><tspan id="trsvg99">Natural drivers only</tspan></text>
+    </switch>
+  </g>
+
+<!-- Natural influences, from https://science2017.globalchange.gov/chapter/3#fig-3-1 -->
+<!-- Human influences, from https://science2017.globalchange.gov/chapter/3#fig-3-3 -->
+<!-- transform="translate(80 145)" to g, add class="natural_line" and class="human_line" to paths -->
+<g transform="translate(80 145)"><path class="natural_line" d="M0 433.251 9.10804 440.883 15.939 450.423 25.8062 625 35.6732 620.23 43.2633 569.669 56.9254 541.05 64.5155 545.82 68.3105 569.669 77.4187 573.486 91.0808 512.431 102.466 506.707 110.815 478.088 121.441 470.456 128.272 486.674 141.934 469.502 150.283 466.64C153.572 473 158.126 467.753 160.15 485.72L163.186 577.301 170.018 567.762 184.439 505.753 192.788 497.168 200.378 468.548 206.45 466.64 214.799 477.134 223.148 466.64 228.461 491.444 236.051 497.167 263.375 430.389 273.243 441.837 282.351 433.251 286.905 439.929 299.049 423.711 322.578 442.791 335.481 417.987 354.456 422.757 367.359 456.146 377.227 439.929 389.371 460.916 398.479 457.101 410.623 421.803 422.008 423.711 436.429 406.54 459.199 429.435 476.657 407.494 482.729 416.08 507.017 416.08 517.643 424.665 525.233 424.665 534.341 427.527 539.654 410.356 547.244 418.941 557.111 410.356 561.665 417.987 572.291 403.678 584.435 397.954 589.748 414.172 602.652 537.234 619.35 526.741 622.386 504.799 628.458 498.121 638.325 508.615 652.746 463.778 658.059 463.778 676.275 450.423 683.865 489.536 694.492 475.226 697.527 455.193 705.877 452.331 714.985 431.343 718.78 428.481 729.406 444.699 740.032 548.682 755.971 490.49 768.874 479.042 782.536 429.435 793.162 437.067 798.476 505.753C800.5 542.004 803 599.336 804.548 614.506 809.625 605.284 813.15 594.155 814.415 584.933L827.318 502.891 847.052 453.284 856.16 439.929 860.714 410.356 877.412 413.218 884.243 397.954 893.351 399.862C895.122 403.996 896.767 410.674 898.665 412.264 900.562 413.853 902.713 410.356 904.737 409.402L913.086 429.435 923.712 423.711 934.338 405.586 941.928 409.402 948 397" stroke="#006400" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><path class="human_line" d="M0 420C3.97462 418.087 10.8719 419.158 15.3846 418.568 19.8974 417.979 23.0638 415.444 27.077 416.464L42.3581 409.577 52.0825 407.282 60.186 408.621 69.3316 408.621 83.5708 410.916 97.3469 406.134 108.576 405.751 124.899 401.925 139.138 401.16 151.294 397.717 162.292 396.569 182.435 394.847 192.854 396.569 204.199 384.899 226.773 381.265 235.687 383.56 247.958 378.012 260.461 381.265 271.227 378.395 278.868 365.96 284.54 369.021 294.612 352.378 299.358 350.656 306.767 365.96 321.354 369.404 328.416 361.178 333.625 367.491 342.771 364.048 350.758 363.473C360.714 348.998 364.766 335.671 372.638 321.196L378.889 321.387 389.656 328.848 397.181 331.143 408.641 337.456 414.198 324.639 422.996 323.109 431.795 329.23 444.992 329.422 453.559 325.404 466.061 327.7 471.965 320.048 485.51 333.822 493.498 329.422 502.527 333.822 515.03 333.248 528.228 334.778 537.373 339.943 550.339 344.535 562.147 340.135 575.344 338.413 601.044 345.874 617.02 338.413 622.808 333.248C624.159 333.248 628.635 337.839 629.986 337.839L637.742 334.013 644.109 323.874 652.56 303.979 658.696 299.961 664.252 298.622 675.25 282.744 678.839 274.71 689.258 277.196 694.815 274.136 715.074 234.153 724.566 222.293 736.143 202.971 745.752 188.432 758.138 167.198 776.314 146.155 795.184 119.372 815.211 134.868 827.251 127.216 838.943 111.338 843.921 114.972 856.887 98.1379 866.148 99.6683 872.631 87.425 882.934 85.3205 893.006 82.8337 922.526 53.7559 935.608 43.043 973 0" stroke="#FF6347" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/></g>
+
+<!-- annual temperature line, from https://data.giss.nasa.gov/gistemp/graphs_v4/ -->
+<g transform="translate(0, -6)"><path class="annual_line" d="M 80 580 L 87.2 535 L 94.4 550 L 101.6 585 L 108.8 640 L 116 660 L 123.2 650 L 130.4 675 L 137.6 580 L 144.8 545 L 152 670 L 159.2 610 L 166.4 630 L 173.6 655 L 180.8 645 L 188 605 L 195.2 550 L 202.4 550 L 209.6 630 L 216.8 585 L 224 535 L 231.2 575 L 238.4 635 L 245.6 685 L 252.8 730 L 260 630 L 267.2 610 L 274.4 690 L 281.6 710 L 288.8 740 L 296 715 L 303.2 720 L 310.4 680 L 317.6 670 L 324.8 575 L 332 570 L 339.2 680 L 346.4 730 L 353.6 645 L 360.8 635 L 368 635 L 375.2 595 L 382.4 640 L 389.6 630 L 396.8 635 L 404 610 L 411.2 555 L 418.4 610 L 425.6 600 L 432.8 680 L 440 580 L 447.2 545 L 454.4 580 L 461.6 640 L 468.8 565 L 476 600 L 483.2 575 L 490.4 515 L 497.6 500 L 504.8 510 L 512 435 L 519.2 405 L 526.4 465 L 533.6 455 L 540.8 400 L 548 455 L 555.2 535 L 562.4 515 L 569.6 555 L 576.8 555 L 584 585 L 591.2 535 L 598.4 495 L 605.6 460 L 612.8 565 L 620 570 L 627.2 595 L 634.4 475 L 641.6 470 L 648.8 485 L 656 510 L 663.2 470 L 670.4 480 L 677.6 475 L 684.8 600 L 692 555 L 699.2 530 L 706.4 510 L 713.6 540 L 720.8 475 L 728 490 L 735.2 540 L 742.4 495 L 749.6 420 L 756.8 535 L 764 505 L 771.2 550 L 778.4 410 L 785.6 465 L 792.8 420 L 800 370 L 807.2 340 L 814.4 430 L 821.6 345 L 828.8 425 L 836 445 L 843.2 410 L 850.4 340 L 857.6 310 L 864.8 365 L 872 275 L 879.2 300 L 886.4 390 L 893.6 385 L 900.8 345 L 908 280 L 915.2 340 L 922.4 270 L 929.6 195 L 936.8 305 L 944 305 L 951.2 230 L 958.4 185 L 965.6 190 L 972.8 230 L 980 160 L 987.2 180 L 994.4 170 L 1001.6 230 L 1008.8 170 L 1016 140 L 1023.2 195 L 1030.4 180 L 1037.6 160 L 1044.8 125 L 1052 50 L 1059.2 -10 L 1066.4 40 L 1073.6 75 L 1080.8 10"/></g>
+
+
+</svg>
