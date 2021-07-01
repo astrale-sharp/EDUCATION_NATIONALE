@@ -25,7 +25,7 @@
      showgrid="false"
      inkscape:zoom="1.0532399"
      inkscape:cx="324.23762"
-     inkscape:cy="686.92802"
+     inkscape:cy="462.85751"
      inkscape:window-width="1920"
      inkscape:window-height="1025"
      inkscape:window-x="0"
@@ -95,7 +95,7 @@
          y="33.110325">Quelques références de physique chimie et autre...</tspan></text>
     <g
        id="g35982"
-       transform="translate(41.69365,6.6882093)">
+       transform="translate(41.69365,80.118787)">
       <rect
          style="fill:#d1d1d4;stroke-width:0.923215;stroke-linecap:round;stroke-opacity:0"
          id="rect5894"
@@ -114,31 +114,31 @@
          y="0"><tspan
            x="163.84277"
            y="291.76562"
-           id="tspan5240"><tspan
+           id="tspan435"><tspan
    style="font-style:italic;font-weight:bold;-inkscape-font-specification:'Carlito Bold Italic';text-align:center;text-anchor:middle"
-   id="tspan5238">Un peu de lecture</tspan>
+   id="tspan433">Un peu de lecture</tspan>
 </tspan><tspan
            x="50.410156"
            y="311.76562"
-           id="tspan5242">+ Les cours de physiques de Richard Feyman : 
+           id="tspan437">+ Les cours de physiques de Richard Feyman : 
 </tspan><tspan
            x="65.170898"
            y="331.76562"
-           id="tspan5244">https://www.feynmanlectures.caltech.edu
+           id="tspan439">https://www.feynmanlectures.caltech.edu
 </tspan><tspan
            x="236.73828"
            y="351.76562"
-           id="tspan5246">
+           id="tspan441">
 </tspan><tspan
            x="42.167969"
            y="371.76562"
-           id="tspan5248">Disponible gratuitement en ligne, trois ouvrages </tspan><tspan
+           id="tspan443">Disponible gratuitement en ligne, trois ouvrages </tspan><tspan
            x="41.914062"
            y="391.76562"
-           id="tspan5250">très complets qui abordent des notions du lycée </tspan><tspan
+           id="tspan445">très complets qui abordent des notions du lycée </tspan><tspan
            x="189.01367"
            y="411.76562"
-           id="tspan5252">et au delà...</tspan></text>
+           id="tspan447">et au delà...</tspan></text>
     </g>
     <text
        xml:space="preserve"
@@ -158,7 +158,7 @@
          id="tspan39797">références françaises jusqu'ici mais il n'y a pas vraiment de solution pour l'instant...</tspan></text>
     <g
        id="g43463"
-       transform="translate(41.69365,43.696696)">
+       transform="translate(41.69365,-7.237583)">
       <rect
          style="fill:#d1d1d4;stroke-width:1.54888;stroke-linecap:round;stroke-opacity:0"
          id="rect43455"
@@ -177,58 +177,58 @@
          y="0"><tspan
            x="279.00391"
            y="291.76562"
-           id="tspan5256"><tspan
+           id="tspan451"><tspan
    style="font-style:normal;font-weight:bold;-inkscape-font-specification:'Carlito Bold';text-align:center;text-anchor:middle"
-   id="tspan5254">Chaînes youtube à visionner</tspan>
+   id="tspan449">Chaînes youtube à visionner</tspan>
 </tspan><tspan
            x="330.27344"
            y="311.76562"
-           id="tspan5260"><tspan
+           id="tspan455"><tspan
    style="font-style:normal;-inkscape-font-specification:Carlito"
-   id="tspan5258">+ MinutePhysics</tspan>
+   id="tspan453">+ MinutePhysics</tspan>
 </tspan><tspan
            x="75.693359"
            y="331.76562"
-           id="tspan5262">En anglais. Culture générale en physique et explication d'une grande qualité sur </tspan><tspan
+           id="tspan457">En anglais. Culture générale en physique et explication d'une grande qualité sur </tspan><tspan
            x="167.3584"
            y="351.76562"
-           id="tspan5264">beaucoup de sujet : mécanique quantique, relativité, etc.
+           id="tspan459">beaucoup de sujet : mécanique quantique, relativité, etc.
 </tspan><tspan
            x="342.86133"
            y="371.76562"
-           id="tspan5268"><tspan
+           id="tspan463"><tspan
    style="font-style:normal;-inkscape-font-specification:Carlito"
-   id="tspan5266">+ Science4All</tspan>
+   id="tspan461">+ Science4All</tspan>
 </tspan><tspan
            x="72.070312"
            y="391.76562"
-           id="tspan5270">En français. Math et sujet de société. Je recommande les playlists : &quot;L'infini et les </tspan><tspan
+           id="tspan465">En français. Math et sujet de société. Je recommande les playlists : &quot;L'infini et les </tspan><tspan
            x="66.884766"
            y="411.76562"
-           id="tspan5272">fondations mathématiques&quot; et &quot;La démocratie sous l'angle de la théorie des jeux&quot;
+           id="tspan467">fondations mathématiques&quot; et &quot;La démocratie sous l'angle de la théorie des jeux&quot;
 </tspan><tspan
            x="334.72656"
            y="431.76562"
-           id="tspan5276"><tspan
+           id="tspan471"><tspan
              style="font-style:normal;-inkscape-font-specification:Carlito"
-             id="tspan5274">+ 3blue1brown
+             id="tspan469">+ 3blue1brown
 </tspan></tspan><tspan
            x="130.23926"
            y="451.76562"
-           id="tspan5278">En anglais. Beaucoup de mathématique montré très visuellement.
+           id="tspan473">En anglais. Beaucoup de mathématique montré très visuellement.
 </tspan><tspan
            x="351.81152"
            y="471.76562"
-           id="tspan5282"><tspan
+           id="tspan477"><tspan
              style="font-style:normal;-inkscape-font-specification:Carlito"
-             id="tspan5280">+Ben eater
+             id="tspan475">+Ben eater
 </tspan></tspan><tspan
            x="67.475586"
            y="491.76562"
-           id="tspan5284">En anglais. Électronique, apprendre à construire un ordinateur. Je recommande la </tspan><tspan
+           id="tspan479">En anglais. Électronique, apprendre à construire un ordinateur. Je recommande la </tspan><tspan
            x="244.39453"
            y="511.76562"
-           id="tspan5286">playlist : &quot;Building an 8-bit computer&quot;</tspan></text>
+           id="tspan481">playlist : &quot;Building an 8-bit computer&quot;</tspan></text>
     </g>
     <g
        id="g117385"
@@ -251,73 +251,73 @@
          y="0"><tspan
            x="63.982422"
            y="291.76562"
-           id="tspan5290"><tspan
+           id="tspan485"><tspan
    style="font-style:italic;font-weight:bold;-inkscape-font-specification:'Carlito Bold Italic';text-align:center;text-anchor:middle"
-   id="tspan5288">Chaines youtube éducation sexuelle</tspan>
+   id="tspan483">Chaines youtube éducation sexuelle</tspan>
 </tspan><tspan
            x="211.5752"
            y="311.76562"
-           id="tspan5292">
+           id="tspan487">
 </tspan><tspan
            x="65.359375"
            y="331.76562"
-           id="tspan5294">Queen Camille, playlist : la boite à Q
+           id="tspan489">Queen Camille, playlist : la boite à Q
 </tspan><tspan
            x="67.15625"
            y="351.76562"
-           id="tspan5298"><tspan
+           id="tspan493"><tspan
              style="font-style:italic;-inkscape-font-specification:'Carlito Italic'"
-             id="tspan5296">Accessible, surtout à propos de sexe </tspan></tspan><tspan
+             id="tspan491">Accessible, surtout à propos de sexe </tspan></tspan><tspan
            x="75.40332"
            y="371.76562"
-           id="tspan5302"><tspan
+           id="tspan497"><tspan
    style="font-style:italic;-inkscape-font-specification:'Carlito Italic'"
-   id="tspan5300">hétérosexuel mais utile pour tous.</tspan>
+   id="tspan495">hétérosexuel mais utile pour tous.</tspan>
 </tspan><tspan
            x="209.31445"
            y="391.76562"
-           id="tspan5304"> 
+           id="tspan499"> 
 </tspan><tspan
            x="67.083008"
            y="411.76562"
-           id="tspan5306">Esther Taillifet, vidéo : Sexualité - La </tspan><tspan
+           id="tspan501">Esther Taillifet, vidéo : Sexualité - La </tspan><tspan
            x="85.754883"
            y="431.76562"
-           id="tspan5308">première fois et plus si affinité!
+           id="tspan503">première fois et plus si affinité!
 </tspan><tspan
            x="40.828125"
            y="451.76562"
-           id="tspan5312"><tspan
+           id="tspan507"><tspan
    style="font-style:italic;-inkscape-font-specification:'Carlito Italic'"
-   id="tspan5310">À propos de la première fois pour les filles.</tspan>
+   id="tspan505">À propos de la première fois pour les filles.</tspan>
 </tspan><tspan
            x="211.5752"
            y="471.76562"
-           id="tspan5314">
+           id="tspan509">
 </tspan><tspan
            x="64.22168"
            y="491.76562"
-           id="tspan5316">Clemity Jane, playlist : sex education
+           id="tspan511">Clemity Jane, playlist : sex education
 </tspan><tspan
            x="51.199219"
            y="511.76562"
-           id="tspan5320"><tspan
+           id="tspan515"><tspan
              style="font-style:italic;-inkscape-font-specification:'Carlito Italic'"
-             id="tspan5318">À propos du rapport à son corps en tant </tspan></tspan><tspan
+             id="tspan513">À propos du rapport à son corps en tant </tspan></tspan><tspan
            x="45.369141"
            y="531.76562"
-           id="tspan5324"><tspan
+           id="tspan519"><tspan
              style="font-style:italic;-inkscape-font-specification:'Carlito Italic'"
-             id="tspan5322">que femme, sexualités queer, question de </tspan></tspan><tspan
+             id="tspan517">que femme, sexualités queer, question de </tspan></tspan><tspan
            x="150.87695"
            y="551.76562"
-           id="tspan5328"><tspan
+           id="tspan523"><tspan
    style="font-style:italic;-inkscape-font-specification:'Carlito Italic'"
-   id="tspan5326">société et sexe.</tspan>
+   id="tspan521">société et sexe.</tspan>
 </tspan><tspan
            x="211.5752"
            y="571.76562"
-           id="tspan5330">
+           id="tspan525">
 </tspan></text>
     </g>
     <g
@@ -341,73 +341,73 @@
          y="0"><tspan
            x="105.08594"
            y="291.76562"
-           id="tspan5334"><tspan
+           id="tspan529"><tspan
    style="font-style:italic;font-weight:bold;-inkscape-font-specification:'Carlito Bold Italic';text-align:center;text-anchor:middle"
-   id="tspan5332">Apprendre à programmer</tspan>
+   id="tspan527">Apprendre à programmer</tspan>
 </tspan><tspan
            x="211.5752"
            y="311.76562"
-           id="tspan5336">
+           id="tspan531">
 </tspan><tspan
            x="150.82324"
            y="331.76562"
-           id="tspan5338">+ godot engine
+           id="tspan533">+ godot engine
 </tspan><tspan
            x="49.695312"
            y="351.76562"
-           id="tspan5342"><tspan
+           id="tspan537"><tspan
              style="font-style:italic;-inkscape-font-specification:'Carlito Italic'"
-             id="tspan5340">apprendre à  programmer en créant des </tspan></tspan><tspan
+             id="tspan535">apprendre à  programmer en créant des </tspan></tspan><tspan
            x="121.39453"
            y="371.76562"
-           id="tspan5346"><tspan
+           id="tspan541"><tspan
              style="font-style:italic;-inkscape-font-specification:'Carlito Italic'"
-             id="tspan5344">jeux vidéo avec godot.
+             id="tspan539">jeux vidéo avec godot.
 </tspan></tspan><tspan
            x="211.5752"
            y="391.76562"
-           id="tspan5348">
+           id="tspan543">
 </tspan><tspan
            x="170.35449"
            y="411.76562"
-           id="tspan5350">+ python3
+           id="tspan545">+ python3
 </tspan><tspan
            x="72.263672"
            y="431.76562"
-           id="tspan5354"><tspan
+           id="tspan549"><tspan
              style="font-style:italic;-inkscape-font-specification:'Carlito Italic'"
-             id="tspan5352">maitriser son premier language de </tspan></tspan><tspan
+             id="tspan547">maitriser son premier language de </tspan></tspan><tspan
            x="147.35645"
            y="451.76562"
-           id="tspan5358"><tspan
+           id="tspan553"><tspan
    style="font-style:italic;-inkscape-font-specification:'Carlito Italic'"
-   id="tspan5356">programmation</tspan>
+   id="tspan551">programmation</tspan>
 </tspan><tspan
            x="211.5752"
            y="471.76562"
-           id="tspan5360">
+           id="tspan555">
 </tspan><tspan
            x="182.99609"
            y="491.76562"
-           id="tspan5364">+ Linux<tspan
+           id="tspan559">+ Linux<tspan
    style="font-style:italic;-inkscape-font-specification:'Carlito Italic'"
-   id="tspan5362">
+   id="tspan557">
 </tspan></tspan><tspan
            x="47.146484"
            y="511.76562"
-           id="tspan5368"><tspan
+           id="tspan563"><tspan
              style="font-style:italic;-inkscape-font-specification:'Carlito Italic'"
-             id="tspan5366">Changer le système d'exploitation de son </tspan></tspan><tspan
+             id="tspan561">Changer le système d'exploitation de son </tspan></tspan><tspan
            x="74.885742"
            y="531.76562"
-           id="tspan5372"><tspan
+           id="tspan567"><tspan
              style="font-style:italic;-inkscape-font-specification:'Carlito Italic'"
-             id="tspan5370">ordinateur pour en comprendre le </tspan></tspan><tspan
+             id="tspan565">ordinateur pour en comprendre le </tspan></tspan><tspan
            x="55.813477"
            y="551.76562"
-           id="tspan5376"><tspan
+           id="tspan571"><tspan
              style="font-style:italic;-inkscape-font-specification:'Carlito Italic'"
-             id="tspan5374">fonctionnement et gagner en contrôle.</tspan></tspan></text>
+             id="tspan569">fonctionnement et gagner en contrôle.</tspan></tspan></text>
     </g>
   </g>
 </svg>
